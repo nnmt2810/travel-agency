@@ -2,7 +2,7 @@ import {Link, NavLink} from "react-router";
 import {sidebarItems} from "~/constants";
 import {cn} from "~/lib/utils";
 
-const NavItems = ({ handleClick } : { handleClick: () => void}) => {
+const NavItems = ({ handleClick }: { handleClick: () => void}) => {
     const user = {
         name: 'Minh Tuấn',
         email: 'nnminhtuan2810@gmail.com',
